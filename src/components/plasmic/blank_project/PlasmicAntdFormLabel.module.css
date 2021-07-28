@@ -1,0 +1,8 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 167px;
+  height: 85px;
+  background: url("./images/labelPng.png") 0% 0% / 100% 100% repeat;
+}

@@ -1,0 +1,8 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 411px;
+  height: 126px;
+  background: url("./../presc_codegen/images/formInpPng.png") 0% 0% / 100% 100% repeat, #318bdf;
+}

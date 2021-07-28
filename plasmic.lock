@@ -1,0 +1,143 @@
+{
+  "projects": [
+    {
+      "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+      "version": "latest",
+      "dependencies": {},
+      "lang": "ts",
+      "fileLocks": [
+        {
+          "type": "globalVariant",
+          "assetId": "1SaP-NpO7oxt",
+          "checksum": "f86406dc804d683c7e8de8c95f91e24e"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "g2haT3nDznE1",
+          "checksum": "42a06e9ebf074eabe366d0f8d286698f"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "g2haT3nDznE1",
+          "checksum": "42a06e9ebf074eabe366d0f8d286698f"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "VEazoruVyc",
+          "checksum": "846fbe107fea919e1cb7f135a13ce713"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "VEazoruVyc",
+          "checksum": "846fbe107fea919e1cb7f135a13ce713"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "P0m14OaWFw",
+          "checksum": "cc1e230c3abd49d93c6502f606fad88c"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "P0m14OaWFw",
+          "checksum": "cc1e230c3abd49d93c6502f606fad88c"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "o5fKIqH7Zk",
+          "checksum": "4940e55de2b7e8683e6e0b3b6164b0c2"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "o5fKIqH7Zk",
+          "checksum": "4940e55de2b7e8683e6e0b3b6164b0c2"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "zmCiX1XW8I",
+          "checksum": "da00cbb497723ff6624090f17a3bfb36"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "zmCiX1XW8I",
+          "checksum": "da00cbb497723ff6624090f17a3bfb36"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "0gPS1xrMsR",
+          "checksum": "2a43f2bc34cff48b7994d8cad56d1bef"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "0gPS1xrMsR",
+          "checksum": "2a43f2bc34cff48b7994d8cad56d1bef"
+        },
+        {
+          "type": "image",
+          "assetId": "Q5fVRnO6k",
+          "checksum": "ea5975a54849c3e45269b5e94c26dea8"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "uLTPE-ZqPg",
+          "checksum": "d919bfb5ab329b9582f01a921777e4f2"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "uLTPE-ZqPg",
+          "checksum": "d919bfb5ab329b9582f01a921777e4f2"
+        },
+        {
+          "type": "image",
+          "assetId": "b_bVZgNlP",
+          "checksum": "19b78340ea618fa8ec03a2919f037f25"
+        },
+        {
+          "type": "image",
+          "assetId": "IdzSSLDJ3",
+          "checksum": "d632c705a9855b9d85a9848c850c2aa5"
+        },
+        {
+          "type": "image",
+          "assetId": "dU0HW4EQc",
+          "checksum": "d24447e0e3322bed71b03a7116749a18"
+        },
+        {
+          "type": "image",
+          "assetId": "zdYR-jmj7",
+          "checksum": "138a588ee79efc359e4130d4987deacb"
+        },
+        {
+          "type": "image",
+          "assetId": "WGWVgktOU",
+          "checksum": "265e2651c4b6811fb1f946129dc1650f"
+        },
+        {
+          "type": "image",
+          "assetId": "4Q2oFNvkb",
+          "checksum": "f5b1c327221060f6266423f0cfc21048"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "RJj2IYTf9q",
+          "checksum": "9f4992f9a0775bb7619e9504e099810e"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "RJj2IYTf9q",
+          "checksum": "9f4992f9a0775bb7619e9504e099810e"
+        },
+        {
+          "type": "image",
+          "assetId": "ros164SCS",
+          "checksum": "d0e9e58d9af92ac98530cfa2dca18946"
+        },
+        {
+          "assetId": "bJSLnzQiU882Sm76eQ6ECs",
+          "type": "projectCss",
+          "checksum": "8004d139bc03b6c85e1025c5275b95b4"
+        }
+      ]
+    }
+  ],
+  "cliVersion": "0.1.157"
+}

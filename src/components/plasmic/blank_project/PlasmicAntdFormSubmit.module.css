@@ -1,0 +1,8 @@
+.root {
+  display: block;
+  background: url("./images/submitPng.png") 0% 0% / 100% 100% repeat,
+    linear-gradient(#a03838, #a03838), rgba(68, 192, 255, 0.2);
+  width: 257px;
+  height: 147px;
+  position: relative;
+}

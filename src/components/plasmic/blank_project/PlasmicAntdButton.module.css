@@ -1,0 +1,7 @@
+.root {
+  display: block;
+  background: linear-gradient(#a03838, #a03838), rgba(68, 192, 255, 0.2);
+  width: 818px;
+  height: 312px;
+  position: relative;
+}

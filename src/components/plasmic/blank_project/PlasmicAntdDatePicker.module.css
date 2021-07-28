@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 206px;
+  height: 79px;
+  background: url("./images/datePng.png") 0% 0% / 100% 100% repeat,
+    linear-gradient(#ffffff, #ffffff),
+    url("./images/datePng.png") 0% 0% / 100% 100% repeat,
+    linear-gradient(#f3fbf7, #f3fbf7), #9a4444;
+}

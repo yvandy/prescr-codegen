@@ -1,0 +1,194 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+      "projectName": "Presc-codegen",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "g2haT3nDznE1",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "VEazoruVyc",
+          "name": "AntdDatePicker",
+          "type": "managed",
+          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAntdDatePicker.tsx",
+          "importSpec": {
+            "modulePath": "AntdDatePicker.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAntdDatePicker.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "zmCiX1XW8I",
+          "name": "AntdFormText",
+          "type": "managed",
+          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAntdFormText.tsx",
+          "importSpec": {
+            "modulePath": "AntdFormText.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAntdFormText.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0gPS1xrMsR",
+          "name": "AntdFormNumber",
+          "type": "managed",
+          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAntdFormNumber.tsx",
+          "importSpec": {
+            "modulePath": "AntdFormNumber.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAntdFormNumber.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "P0m14OaWFw",
+          "name": "AntdFormSubmit",
+          "type": "managed",
+          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAntdFormSubmit.tsx",
+          "importSpec": {
+            "modulePath": "AntdFormSubmit.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAntdFormSubmit.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "o5fKIqH7Zk",
+          "name": "AntdFileUpload",
+          "type": "managed",
+          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAntdFileUpload.tsx",
+          "importSpec": {
+            "modulePath": "AntdFileUpload.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAntdFileUpload.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "uLTPE-ZqPg",
+          "name": "AntdFormLabel",
+          "type": "managed",
+          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAntdFormLabel.tsx",
+          "importSpec": {
+            "modulePath": "AntdFormLabel.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAntdFormLabel.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "RJj2IYTf9q",
+          "name": "AntdFormInput",
+          "type": "managed",
+          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAntdFormInput.tsx",
+          "importSpec": {
+            "modulePath": "AntdFormInput.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAntdFormInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "Q5fVRnO6k",
+          "name": "chair_fitting_issue.jpg",
+          "filePath": "plasmic/blank_project/images/chairFittingIssuejpg.jpeg"
+        },
+        {
+          "id": "b_bVZgNlP",
+          "name": "date.PNG",
+          "filePath": "plasmic/blank_project/images/datePng.png"
+        },
+        {
+          "id": "IdzSSLDJ3",
+          "name": "fileupload.PNG",
+          "filePath": "plasmic/blank_project/images/fileuploadPng.png"
+        },
+        {
+          "id": "dU0HW4EQc",
+          "name": "label.PNG",
+          "filePath": "plasmic/blank_project/images/labelPng.png"
+        },
+        {
+          "id": "zdYR-jmj7",
+          "name": "numbox.png",
+          "filePath": "plasmic/blank_project/images/numboxpng.png"
+        },
+        {
+          "id": "WGWVgktOU",
+          "name": "submit.PNG",
+          "filePath": "plasmic/blank_project/images/submitPng.png"
+        },
+        {
+          "id": "4Q2oFNvkb",
+          "name": "textbox.PNG",
+          "filePath": "plasmic/blank_project/images/textboxPng.png"
+        },
+        {
+          "id": "ros164SCS",
+          "name": "formInp.PNG",
+          "filePath": "plasmic/presc_codegen/images/formInpPng.png"
+        }
+      ],
+      "codeComponents": [],
+      "projectApiToken": "yTyoYEcZfJDlY0GhdDtNFbSTbR15vlLwZw0cs1LTzaD3skzxsVwZ65T19KiLavzmxuYXlFsARo1wfBaTRiA"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "1SaP-NpO7oxt",
+        "name": "Screen",
+        "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.157",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.157/dist/plasmic.schema.json"
+}

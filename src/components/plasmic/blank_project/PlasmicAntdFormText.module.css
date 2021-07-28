@@ -1,0 +1,9 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 309px;
+  height: 53px;
+  background: url("./images/textboxPng.png") 0% 0% / 100% 100% repeat,
+    url("./images/chairFittingIssuejpg.jpeg") 0% 0% / 100% 100% repeat;
+}

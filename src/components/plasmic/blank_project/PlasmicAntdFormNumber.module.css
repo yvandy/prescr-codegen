@@ -1,0 +1,8 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 149px;
+  height: 68px;
+  background: url("./images/numboxpng.png") 0% 0% / 100% 100% repeat;
+}
