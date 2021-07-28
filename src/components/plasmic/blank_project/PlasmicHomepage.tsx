@@ -135,7 +135,7 @@ function PlasmicHomepage__RenderFunc(props: {
 
             <AntdFormInput
               className={classNames("__wab_instance", sty.antdFormInput__aSukO)}
-              label={"medicine" as const}
+              label={"Medicine" as const}
               placeholder={"medicine1" as const}
               type={"text" as const}
             />

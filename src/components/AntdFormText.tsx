@@ -6,6 +6,8 @@ import {
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 import { Input } from "antd";
 interface AntdFormTextProps extends DefaultAntdFormTextProps { }
+
+
 function AntdFormText_(props: AntdFormTextProps, ref: HTMLElementRefOf<"div">) {
   return <Input className={props.className} />;
 }

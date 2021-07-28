@@ -10,9 +10,11 @@ function AntdFileUpload_(
   props: AntdFileUploadProps,
   ref: HTMLElementRefOf<"div">
 ) {
-  return (<Upload className={props.className}>
-    <Button icon={<UploadOutlined />}>Upload</Button>
-  </Upload>);
+  return (
+    <Upload className={props.className}>
+      <Button icon={<UploadOutlined />}>Upload</Button>
+    </Upload>
+  );
 }
 
 const AntdFileUpload = React.forwardRef(AntdFileUpload_);
