@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/yvandy/prescr-codegen/static/css/main.9fc493db.chunk.css",
+    "main.js": "/yvandy/prescr-codegen/static/js/main.ed324558.chunk.js",
+    "main.js.map": "/yvandy/prescr-codegen/static/js/main.ed324558.chunk.js.map",
+    "runtime-main.js": "/yvandy/prescr-codegen/static/js/runtime-main.d639edbc.js",
+    "runtime-main.js.map": "/yvandy/prescr-codegen/static/js/runtime-main.d639edbc.js.map",
+    "static/css/2.db064099.chunk.css": "/yvandy/prescr-codegen/static/css/2.db064099.chunk.css",
+    "static/js/2.e478d565.chunk.js": "/yvandy/prescr-codegen/static/js/2.e478d565.chunk.js",
+    "static/js/2.e478d565.chunk.js.map": "/yvandy/prescr-codegen/static/js/2.e478d565.chunk.js.map",
+    "static/js/3.b90b7789.chunk.js": "/yvandy/prescr-codegen/static/js/3.b90b7789.chunk.js",
+    "static/js/3.b90b7789.chunk.js.map": "/yvandy/prescr-codegen/static/js/3.b90b7789.chunk.js.map",
+    "index.html": "/yvandy/prescr-codegen/index.html",
+    "static/css/2.db064099.chunk.css.map": "/yvandy/prescr-codegen/static/css/2.db064099.chunk.css.map",
+    "static/css/main.9fc493db.chunk.css.map": "/yvandy/prescr-codegen/static/css/main.9fc493db.chunk.css.map",
+    "static/js/2.e478d565.chunk.js.LICENSE.txt": "/yvandy/prescr-codegen/static/js/2.e478d565.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d639edbc.js",
+    "static/css/2.db064099.chunk.css",
+    "static/js/2.e478d565.chunk.js",
+    "static/css/main.9fc493db.chunk.css",
+    "static/js/main.ed324558.chunk.js"
+  ]
+}
