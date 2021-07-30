@@ -3,13 +3,14 @@ import {
   DefaultAntdFormInputProps
 } from "./plasmic/blank_project/PlasmicAntdFormInput";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
-import { DatePicker, Form, Input, InputNumber } from "antd";
+import { Button, DatePicker, Form, Input, InputNumber, Upload } from "antd";
+import { UploadOutlined } from '@ant-design/icons';
 interface AntdFormInputProps extends DefaultAntdFormInputProps { }
-
 function AntdFormInput_(
   props: AntdFormInputProps,
   ref: HTMLElementRefOf<"div">
 ) {
+
   let inputEle;
   switch (props.type) {
 
@@ -21,13 +22,18 @@ function AntdFormInput_(
       inputEle = <DatePicker format="YYYY-MM-DD HH:mm:ss" />
       break;
     }
+    case "upload": {
+      inputEle = <Upload>
+        <Button icon={<UploadOutlined />}>Upload</Button>
+      </Upload>
+      break;
+    }
     default: {
       inputEle = <Input />
       break;
     }
   }
   return (
-
     <Form.Item className={props.className}
       label={props.label}
       name="patientName"
@@ -43,6 +49,5 @@ function AntdFormInput_(
 
   )
 }
-
 const AntdFormInput = React.forwardRef(AntdFormInput_);
 export default AntdFormInput;

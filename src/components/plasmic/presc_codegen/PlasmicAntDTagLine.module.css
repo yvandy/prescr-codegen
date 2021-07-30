@@ -1,0 +1,8 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 220px;
+  height: 49px;
+  background: url("./images/tagLinePng.png") 0% 0% / 100% 100% repeat;
+}

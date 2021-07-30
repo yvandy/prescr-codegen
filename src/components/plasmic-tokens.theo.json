@@ -1,5 +1,16 @@
 {
-  "props": [],
+  "props": [
+    {
+      "name": "light(secondary)",
+      "type": "color",
+      "value": "#00000080",
+      "category": "color",
+      "meta": {
+        "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+        "id": "sZRN6FenN"
+      }
+    }
+  ],
   "global": {
     "meta": {
       "source": "plasmic.app"

@@ -130,6 +130,58 @@
           "cssFilePath": "plasmic/blank_project/PlasmicAntdFormInput.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "jwRy-bXo-6",
+          "name": "AntdTestComp",
+          "type": "managed",
+          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+          "renderModuleFilePath": "plasmic/presc_codegen/PlasmicAntdTestComp.tsx",
+          "importSpec": {
+            "modulePath": "AntdTestComp.tsx"
+          },
+          "cssFilePath": "plasmic/presc_codegen/PlasmicAntdTestComp.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ZvwTqKv81q",
+          "name": "AntDTagLine",
+          "type": "managed",
+          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+          "renderModuleFilePath": "plasmic/presc_codegen/PlasmicAntDTagLine.tsx",
+          "importSpec": {
+            "modulePath": "AntDTagLine.tsx"
+          },
+          "cssFilePath": "plasmic/presc_codegen/PlasmicAntDTagLine.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "LCMpUnBt5z",
+          "name": "AntDLogo",
+          "type": "managed",
+          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+          "renderModuleFilePath": "plasmic/presc_codegen/PlasmicAntDLogo.tsx",
+          "importSpec": {
+            "modulePath": "AntDLogo.tsx"
+          },
+          "cssFilePath": "plasmic/presc_codegen/PlasmicAntDLogo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "fREaV0xT9x",
+          "name": "AntdMedicineInput",
+          "type": "managed",
+          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+          "renderModuleFilePath": "plasmic/presc_codegen/PlasmicAntdMedicineInput.tsx",
+          "importSpec": {
+            "modulePath": "AntdMedicineInput.tsx"
+          },
+          "cssFilePath": "plasmic/presc_codegen/PlasmicAntdMedicineInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [],
@@ -173,6 +225,26 @@
           "id": "ros164SCS",
           "name": "formInp.PNG",
           "filePath": "plasmic/presc_codegen/images/formInpPng.png"
+        },
+        {
+          "id": "ntex6e36_",
+          "name": "medicine.PNG",
+          "filePath": "plasmic/presc_codegen/images/medicinePng.png"
+        },
+        {
+          "id": "eODeysK-_",
+          "name": "tagLine.PNG",
+          "filePath": "plasmic/presc_codegen/images/tagLinePng.png"
+        },
+        {
+          "id": "MpfjE2yMK",
+          "name": "logo.PNG",
+          "filePath": "plasmic/presc_codegen/images/logoPng.png"
+        },
+        {
+          "id": "uW_jrnz-4",
+          "name": "medInput.PNG",
+          "filePath": "plasmic/presc_codegen/images/medInputPng.png"
         }
       ],
       "codeComponents": [],
@@ -189,6 +261,6 @@
       }
     ]
   },
-  "cliVersion": "0.1.157",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.157/dist/plasmic.schema.json"
+  "cliVersion": "0.1.158",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.158/dist/plasmic.schema.json"
 }
