@@ -45,11 +45,13 @@ export const PlasmicAntdMedicineInput__VariantProps =
 
 export type PlasmicAntdMedicineInput__ArgsType = {
   label?: string;
+  name?: string;
 };
 
 type ArgPropType = keyof PlasmicAntdMedicineInput__ArgsType;
 export const PlasmicAntdMedicineInput__ArgProps = new Array<ArgPropType>(
-  "label"
+  "label",
+  "name"
 );
 
 export type PlasmicAntdMedicineInput__OverridesType = {
@@ -58,6 +60,7 @@ export type PlasmicAntdMedicineInput__OverridesType = {
 
 export interface DefaultAntdMedicineInputProps {
   label?: string;
+  name?: string;
   className?: string;
 }
 

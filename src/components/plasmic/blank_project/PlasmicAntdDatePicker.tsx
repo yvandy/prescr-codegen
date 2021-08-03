@@ -42,15 +42,19 @@ export type PlasmicAntdDatePicker__VariantsArgs = {};
 type VariantPropType = keyof PlasmicAntdDatePicker__VariantsArgs;
 export const PlasmicAntdDatePicker__VariantProps = new Array<VariantPropType>();
 
-export type PlasmicAntdDatePicker__ArgsType = {};
+export type PlasmicAntdDatePicker__ArgsType = {
+  name?: string;
+};
+
 type ArgPropType = keyof PlasmicAntdDatePicker__ArgsType;
-export const PlasmicAntdDatePicker__ArgProps = new Array<ArgPropType>();
+export const PlasmicAntdDatePicker__ArgProps = new Array<ArgPropType>("name");
 
 export type PlasmicAntdDatePicker__OverridesType = {
   root?: p.Flex<"div">;
 };
 
 export interface DefaultAntdDatePickerProps {
+  name?: string;
   className?: string;
 }
 

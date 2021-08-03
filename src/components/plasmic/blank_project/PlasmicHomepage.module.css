@@ -92,18 +92,11 @@
   align-self: flex-end;
   flex-shrink: 0;
 }
-.freeBox__ibhqp {
-  display: inline-flex;
-  position: relative;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: flex-start;
-  width: auto;
-  height: auto;
-  align-self: flex-end;
-}
 .antdDatePicker:global(.__wab_instance) {
   position: relative;
+  align-self: flex-end;
+  width: 185px;
+  height: 38px;
   flex-shrink: 0;
 }
 .antdFormInput__xd91G:global(.__wab_instance) {

@@ -137,29 +137,31 @@ function PlasmicHomepage__RenderFunc(props: {
               src={logoPngMpfjE2YMk}
             />
 
-            <div className={classNames(defaultcss.all, sty.freeBox__ibhqp)}>
-              <AntdDatePicker
-                data-plasmic-name={"antdDatePicker"}
-                data-plasmic-override={overrides.antdDatePicker}
-                className={classNames("__wab_instance", sty.antdDatePicker)}
-              />
-            </div>
+            <AntdDatePicker
+              data-plasmic-name={"antdDatePicker"}
+              data-plasmic-override={overrides.antdDatePicker}
+              className={classNames("__wab_instance", sty.antdDatePicker)}
+              name={"date" as const}
+            />
 
             <AntdFormInput
               className={classNames("__wab_instance", sty.antdFormInput__xd91G)}
               label={"Name" as const}
+              name={"patientName" as const}
               type={"text" as const}
             />
 
             <AntdFormInput
               className={classNames("__wab_instance", sty.antdFormInput__rmtX2)}
               label={"Age" as const}
+              name={"patientAge" as const}
               type={"number" as const}
             />
 
             <AntdFormInput
               className={classNames("__wab_instance", sty.antdFormInput__rgmsz)}
               label={"ID" as const}
+              name={"patientID" as const}
               type={"text" as const}
             />
 
@@ -169,6 +171,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 sty.antdMedicineInput__y9Csf
               )}
               label={"Medicine 1" as const}
+              name={"medicine1" as const}
             />
 
             <AntdMedicineInput
@@ -177,11 +180,13 @@ function PlasmicHomepage__RenderFunc(props: {
                 sty.antdMedicineInput__atb4D
               )}
               label={"Medicine 2" as const}
+              name={"medicine2" as const}
             />
 
             <AntdFormInput
               className={classNames("__wab_instance", sty.antdFormInput__yLmAq)}
               label={"Previous Prescription" as const}
+              name={"upload" as const}
               type={"upload" as const}
             />
 

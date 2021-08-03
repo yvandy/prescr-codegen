@@ -5,7 +5,9 @@ import {
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 import { Button, DatePicker, Form, Input, InputNumber, Upload } from "antd";
 import { UploadOutlined } from '@ant-design/icons';
+
 interface AntdFormInputProps extends DefaultAntdFormInputProps { }
+
 function AntdFormInput_(
   props: AntdFormInputProps,
   ref: HTMLElementRefOf<"div">
@@ -36,10 +38,10 @@ function AntdFormInput_(
   return (
     <Form.Item className={props.className}
       label={props.label}
-      name="patientName"
+      name={props.name}
       rules={[
         {
-          required: true,
+          required: false,
           message: 'Please input your patient name!',
         },
       ]}
