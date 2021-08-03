@@ -20,11 +20,12 @@ function AntdMedicineInput_(
   const medicines = useSelector((state: StateItem) => state.medicines);
 
   const medicineData: MedicineItem[] = [];
+
   for (const key in medicines) {
     medicineData.push({
       id: key,
       label: medicines[key].name,
-      value: medicines[key].name
+      value: medicines[key].value
     })
   }
 

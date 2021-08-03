@@ -11,16 +11,12 @@ import { FormItem } from "../typings/types";
 interface HomepageProps extends DefaultHomepageProps { }
 
 function Homepage_(props: HomepageProps, ref: HTMLElementRefOf<"div">) {
-
   const submitDispatch = useDispatch();
+
   const onFinish = (values: FormItem) => {
-    const formValues = {
-      ...values,
-      date: values.date.format('YYYY-MM-DD')
-    };
     submitDispatch({
       type: "submit",
-      payload: formValues
+      payload: values
     })
   };
 

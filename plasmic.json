@@ -54,19 +54,6 @@
           "componentType": "component"
         },
         {
-          "id": "zmCiX1XW8I",
-          "name": "AntdFormText",
-          "type": "managed",
-          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
-          "renderModuleFilePath": "plasmic/blank_project/PlasmicAntdFormText.tsx",
-          "importSpec": {
-            "modulePath": "AntdFormText.tsx"
-          },
-          "cssFilePath": "plasmic/blank_project/PlasmicAntdFormText.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
           "id": "0gPS1xrMsR",
           "name": "AntdFormNumber",
           "type": "managed",
@@ -141,32 +128,6 @@
             "modulePath": "AntdTestComp.tsx"
           },
           "cssFilePath": "plasmic/presc_codegen/PlasmicAntdTestComp.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "ZvwTqKv81q",
-          "name": "AntDTagLine",
-          "type": "managed",
-          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
-          "renderModuleFilePath": "plasmic/presc_codegen/PlasmicAntDTagLine.tsx",
-          "importSpec": {
-            "modulePath": "AntDTagLine.tsx"
-          },
-          "cssFilePath": "plasmic/presc_codegen/PlasmicAntDTagLine.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "LCMpUnBt5z",
-          "name": "AntDLogo",
-          "type": "managed",
-          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
-          "renderModuleFilePath": "plasmic/presc_codegen/PlasmicAntDLogo.tsx",
-          "importSpec": {
-            "modulePath": "AntDLogo.tsx"
-          },
-          "cssFilePath": "plasmic/presc_codegen/PlasmicAntDLogo.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },

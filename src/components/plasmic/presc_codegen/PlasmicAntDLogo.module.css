@@ -1,8 +1,0 @@
-.root {
-  display: inline-flex;
-  flex-direction: column;
-  position: relative;
-  width: auto;
-  height: auto;
-  background: url("./images/logoPng.png") 0% 0% / 100% 100% repeat;
-}

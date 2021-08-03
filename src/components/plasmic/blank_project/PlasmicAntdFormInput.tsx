@@ -45,7 +45,6 @@ export const PlasmicAntdFormInput__VariantProps = new Array<VariantPropType>();
 export type PlasmicAntdFormInput__ArgsType = {
   label?: string;
   type?: string;
-  placeholder?: string;
   name?: string;
 };
 
@@ -53,7 +52,6 @@ type ArgPropType = keyof PlasmicAntdFormInput__ArgsType;
 export const PlasmicAntdFormInput__ArgProps = new Array<ArgPropType>(
   "label",
   "type",
-  "placeholder",
   "name"
 );
 
@@ -64,7 +62,6 @@ export type PlasmicAntdFormInput__OverridesType = {
 export interface DefaultAntdFormInputProps {
   label?: string;
   type?: string;
-  placeholder?: string;
   name?: string;
   className?: string;
 }
@@ -112,18 +109,18 @@ type NodeComponentProps<T extends NodeNameType> =
     overrides?: NodeOverridesType<T>;
     dataFetches?: PlasmicAntdFormInput__Fetches;
   } & Omit<PlasmicAntdFormInput__VariantsArgs, ReservedPropsType> & // Specify variants directly as props
-  // Specify args directly as props
-  Omit<PlasmicAntdFormInput__ArgsType, ReservedPropsType> &
-  // Specify overrides for each element directly as props
-  Omit<
-    NodeOverridesType<T>,
-    ReservedPropsType | VariantPropType | ArgPropType
-  > &
-  // Specify props for the root element
-  Omit<
-    Partial<React.ComponentProps<NodeDefaultElementType[T]>>,
-    ReservedPropsType | VariantPropType | ArgPropType | DescendantsType<T>
-  >;
+    // Specify args directly as props
+    Omit<PlasmicAntdFormInput__ArgsType, ReservedPropsType> &
+    // Specify overrides for each element directly as props
+    Omit<
+      NodeOverridesType<T>,
+      ReservedPropsType | VariantPropType | ArgPropType
+    > &
+    // Specify props for the root element
+    Omit<
+      Partial<React.ComponentProps<NodeDefaultElementType[T]>>,
+      ReservedPropsType | VariantPropType | ArgPropType | DescendantsType<T>
+    >;
 
 function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
   type PropsType = NodeComponentProps<NodeName> & { key?: React.Key };

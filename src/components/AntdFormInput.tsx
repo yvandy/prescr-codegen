@@ -14,8 +14,8 @@ function AntdFormInput_(
 ) {
 
   let inputEle;
-  switch (props.type) {
 
+  switch (props.type) {
     case "number": {
       inputEle = <InputNumber />
       break;

@@ -1,5 +1,10 @@
 export interface StateItem {
-    medicines: any,
+    medicines: {
+        [key: string]: {
+            name: string,
+            value: string
+        }
+    },
     formValues?: any
 }
 

@@ -23,6 +23,7 @@ const reducer = (state = initialState, action: ActionItem): StateItem => {
                         precription: action.payload,
                     })
                 });
+                alert("Data Submitted Successfully.");
             }
             submitPrescription();
             return state;
