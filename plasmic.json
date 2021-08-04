@@ -241,11 +241,6 @@
           "id": "ydfcbYgt_N",
           "name": "Slider",
           "componentImportPath": "antd"
-        },
-        {
-          "id": "8s64y7Suhq",
-          "name": "FormInput",
-          "componentImportPath": "./components/CustomFormInput"
         }
       ],
       "projectApiToken": "yTyoYEcZfJDlY0GhdDtNFbSTbR15vlLwZw0cs1LTzaD3skzxsVwZ65T19KiLavzmxuYXlFsARo1wfBaTRiA"

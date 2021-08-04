@@ -41,6 +41,8 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: bJSLnzQiU882Sm76eQ6ECs/projectcss
 import * as sty from "./PlasmicHomepage.module.css"; // plasmic-import: g2haT3nDznE1/css
 
+import logoPngMpfjE2YMk from "../presc_codegen/images/logoPng.png"; // plasmic-import: MpfjE2yMK/picture
+
 export type PlasmicHomepage__VariantMembers = {};
 
 export type PlasmicHomepage__VariantsArgs = {};
@@ -56,6 +58,7 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>("medicine");
 
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
+  img?: p.Flex<"img">;
   datePicker?: p.Flex<typeof DatePicker>;
   slider?: p.Flex<typeof Slider>;
   antdFormSubmit?: p.Flex<typeof AntdFormSubmit>;
@@ -124,6 +127,17 @@ function PlasmicHomepage__RenderFunc(props: {
                 )}
               >
                 {"With us, you feel Secure"}
+              </div>
+
+              <div className={classNames(defaultcss.all, sty.freeBox__ltVbz)}>
+                <img
+                  data-plasmic-name={"img"}
+                  data-plasmic-override={overrides.img}
+                  alt={""}
+                  className={classNames(defaultcss.img, sty.img)}
+                  role={"img"}
+                  src={logoPngMpfjE2YMk}
+                />
               </div>
             </p.Stack>
 
@@ -199,7 +213,8 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "datePicker", "slider", "antdFormSubmit"],
+  root: ["root", "img", "datePicker", "slider", "antdFormSubmit"],
+  img: ["img"],
   datePicker: ["datePicker"],
   slider: ["slider"],
   antdFormSubmit: ["antdFormSubmit"]
@@ -209,6 +224,7 @@ type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
+  img: "img";
   datePicker: typeof DatePicker;
   slider: typeof Slider;
   antdFormSubmit: typeof AntdFormSubmit;
@@ -275,6 +291,7 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    img: makeNodeComponent("img"),
     datePicker: makeNodeComponent("datePicker"),
     slider: makeNodeComponent("slider"),
     antdFormSubmit: makeNodeComponent("antdFormSubmit"),
