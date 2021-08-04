@@ -143,6 +143,19 @@
           "cssFilePath": "plasmic/presc_codegen/PlasmicAntdMedicineInput.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "ale17Nq1d_",
+          "name": "AntdCheckBox",
+          "type": "managed",
+          "projectId": "bJSLnzQiU882Sm76eQ6ECs",
+          "renderModuleFilePath": "plasmic/presc_codegen/PlasmicAntdCheckBox.tsx",
+          "importSpec": {
+            "modulePath": "AntdCheckBox.tsx"
+          },
+          "cssFilePath": "plasmic/presc_codegen/PlasmicAntdCheckBox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [],
@@ -206,9 +219,35 @@
           "id": "uW_jrnz-4",
           "name": "medInput.PNG",
           "filePath": "plasmic/presc_codegen/images/medInputPng.png"
+        },
+        {
+          "id": "4ow4kOYPh",
+          "name": "checkbox.PNG",
+          "filePath": "plasmic/presc_codegen/images/checkboxPng.png"
         }
       ],
-      "codeComponents": [],
+      "codeComponents": [
+        {
+          "id": "R-y6jyHg2A",
+          "name": "Input",
+          "componentImportPath": "antd"
+        },
+        {
+          "id": "yziodUb9Qv",
+          "name": "DatePicker",
+          "componentImportPath": "antd"
+        },
+        {
+          "id": "ydfcbYgt_N",
+          "name": "Slider",
+          "componentImportPath": "antd"
+        },
+        {
+          "id": "8s64y7Suhq",
+          "name": "FormInput",
+          "componentImportPath": "./components/CustomFormInput"
+        }
+      ],
       "projectApiToken": "yTyoYEcZfJDlY0GhdDtNFbSTbR15vlLwZw0cs1LTzaD3skzxsVwZ65T19KiLavzmxuYXlFsARo1wfBaTRiA"
     }
   ],

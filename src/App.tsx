@@ -3,7 +3,12 @@ import './App.css';
 import Homepage from './components/Homepage';
 import 'antd/dist/antd.css';
 import { useDispatch } from 'react-redux';
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Host from './host';
 function App() {
   // Load medicines dropdown data
 
@@ -19,9 +24,18 @@ function App() {
     fetchMedicine();
   })
   return (
-    <Fragment>
-      <Homepage />
-    </Fragment>
+    <Router>
+      <div>
+        <Switch>
+          <Route path="/host">
+            <Host />
+          </Route>
+          <Route path="/">
+            <Homepage />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

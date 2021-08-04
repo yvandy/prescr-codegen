@@ -30,7 +30,8 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import AntdDatePicker from "../../AntdDatePicker"; // plasmic-import: VEazoruVyc/component
+import { DatePicker } from "antd"; // plasmic-import: yziodUb9Qv/codeComponent
+import { Slider } from "antd"; // plasmic-import: ydfcbYgt_N/codeComponent
 import AntdFormInput from "../../AntdFormInput"; // plasmic-import: RJj2IYTf9q/component
 import AntdMedicineInput from "../../AntdMedicineInput"; // plasmic-import: fREaV0xT9x/component
 import AntdFormSubmit from "../../AntdFormSubmit"; // plasmic-import: P0m14OaWFw/component
@@ -39,8 +40,6 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: bJSLnzQiU882Sm76eQ6ECs/projectcss
 import * as sty from "./PlasmicHomepage.module.css"; // plasmic-import: g2haT3nDznE1/css
-
-import logoPngMpfjE2YMk from "../presc_codegen/images/logoPng.png"; // plasmic-import: MpfjE2yMK/picture
 
 export type PlasmicHomepage__VariantMembers = {};
 
@@ -57,8 +56,8 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>("medicine");
 
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
-  img?: p.Flex<"img">;
-  antdDatePicker?: p.Flex<typeof AntdDatePicker>;
+  datePicker?: p.Flex<typeof DatePicker>;
+  slider?: p.Flex<typeof Slider>;
   antdFormSubmit?: p.Flex<typeof AntdFormSubmit>;
 };
 
@@ -128,21 +127,25 @@ function PlasmicHomepage__RenderFunc(props: {
               </div>
             </p.Stack>
 
-            <img
-              data-plasmic-name={"img"}
-              data-plasmic-override={overrides.img}
-              alt={""}
-              className={classNames(defaultcss.img, sty.img)}
-              role={"img"}
-              src={logoPngMpfjE2YMk}
-            />
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(defaultcss.all, sty.freeBox___4NJqr)}
+            >
+              <DatePicker
+                data-plasmic-name={"datePicker"}
+                data-plasmic-override={overrides.datePicker}
+                className={classNames("__wab_instance", sty.datePicker)}
+              />
 
-            <AntdDatePicker
-              data-plasmic-name={"antdDatePicker"}
-              data-plasmic-override={overrides.antdDatePicker}
-              className={classNames("__wab_instance", sty.antdDatePicker)}
-              name={"date" as const}
-            />
+              <Slider
+                data-plasmic-name={"slider"}
+                data-plasmic-override={overrides.slider}
+                className={classNames("__wab_instance", sty.slider)}
+                range={false}
+                vertical={false}
+              />
+            </p.Stack>
 
             <AntdFormInput
               className={classNames("__wab_instance", sty.antdFormInput__xd91G)}
@@ -183,13 +186,6 @@ function PlasmicHomepage__RenderFunc(props: {
               name={"medicine2" as const}
             />
 
-            <AntdFormInput
-              className={classNames("__wab_instance", sty.antdFormInput__yLmAq)}
-              label={"Previous Prescription" as const}
-              name={"upload" as const}
-              type={"upload" as const}
-            />
-
             <AntdFormSubmit
               data-plasmic-name={"antdFormSubmit"}
               data-plasmic-override={overrides.antdFormSubmit}
@@ -203,9 +199,9 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "img", "antdDatePicker", "antdFormSubmit"],
-  img: ["img"],
-  antdDatePicker: ["antdDatePicker"],
+  root: ["root", "datePicker", "slider", "antdFormSubmit"],
+  datePicker: ["datePicker"],
+  slider: ["slider"],
   antdFormSubmit: ["antdFormSubmit"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -213,8 +209,8 @@ type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  img: "img";
-  antdDatePicker: typeof AntdDatePicker;
+  datePicker: typeof DatePicker;
+  slider: typeof Slider;
   antdFormSubmit: typeof AntdFormSubmit;
 };
 
@@ -279,8 +275,8 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    img: makeNodeComponent("img"),
-    antdDatePicker: makeNodeComponent("antdDatePicker"),
+    datePicker: makeNodeComponent("datePicker"),
+    slider: makeNodeComponent("slider"),
     antdFormSubmit: makeNodeComponent("antdFormSubmit"),
 
     // Metadata about props expected for PlasmicHomepage

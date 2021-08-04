@@ -14,6 +14,7 @@ function Homepage_(props: HomepageProps, ref: HTMLElementRefOf<"div">) {
   const submitDispatch = useDispatch();
 
   const onFinish = (values: FormItem) => {
+    console.log(values, 12);
     submitDispatch({
       type: "submit",
       payload: values

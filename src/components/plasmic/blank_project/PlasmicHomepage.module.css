@@ -84,20 +84,40 @@
   font-family: "Inter", sans-serif;
   min-width: 0;
 }
-.img {
+.freeBox___4NJqr {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   position: relative;
-  object-fit: cover;
-  width: 40px;
-  height: 25px;
+  height: auto;
+  min-width: 0;
+}
+.freeBox___4NJqr > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.freeBox___4NJqr > :global(.__wab_flex-container) > *,
+.freeBox___4NJqr > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.datePicker:global(.__wab_instance) {
+  position: relative;
+  width: 50%;
+  height: 35px;
   align-self: flex-end;
   flex-shrink: 0;
 }
-.antdDatePicker:global(.__wab_instance) {
+.slider:global(.__wab_instance) {
   position: relative;
+  width: 50%;
   align-self: flex-end;
-  width: 185px;
-  height: 38px;
-  flex-shrink: 0;
 }
 .antdFormInput__xd91G:global(.__wab_instance) {
   position: relative;
@@ -131,13 +151,6 @@
   position: relative;
   width: 100%;
   align-self: center;
-  min-width: 0;
-  flex-shrink: 0;
-}
-.antdFormInput__yLmAq:global(.__wab_instance) {
-  position: relative;
-  align-self: center;
-  width: 100%;
   min-width: 0;
   flex-shrink: 0;
 }
