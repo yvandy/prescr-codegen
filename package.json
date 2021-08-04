@@ -1,6 +1,6 @@
 {
   "name": "prescription-application",
-  "homepage": "https://yvandy.github.io/prescr-codegen",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
