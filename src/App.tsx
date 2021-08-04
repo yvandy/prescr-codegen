@@ -6,8 +6,7 @@ import { useDispatch } from 'react-redux';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  HashRouter
+  Route
 } from "react-router-dom";
 import Host from './host';
 function App() {
@@ -25,7 +24,7 @@ function App() {
     fetchMedicine();
   })
   return (
-    <HashRouter basename='/'>
+    <Router>
       <div>
         <Switch>
           <Route path="/host">
@@ -36,7 +35,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 
